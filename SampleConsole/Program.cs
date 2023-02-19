@@ -6,7 +6,7 @@ namespace SampleConsole
     {
         private static void Main()
         {
-            Action action = MultiThreadDictionary.Run;
+            Action action = MultiThreadDictionary.RunDictionary;
 
             Console.WriteLine($"Running: {action.Method.DeclaringType.Name}.{action.Method.Name}");
             action();
